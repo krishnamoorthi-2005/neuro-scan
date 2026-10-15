@@ -1,1 +1,0 @@
-NeuroScan Training Server Init

@@ -1,0 +1,12 @@
+* text=auto
+
+# Binary file specifications
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.jfif binary
+*.docx binary
+*.glb binary
+*.pth binary
+*.svg text

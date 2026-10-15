@@ -1,0 +1,11 @@
+{
+  "name": "neuroscan-system",
+  "private": true,
+  "version": "1.0.0",
+  "description": "NeuroScan Clinical AI Diagnostic System",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "backend": "python backend/run_server.py"
+  }
+}

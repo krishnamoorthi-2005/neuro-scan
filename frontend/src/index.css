@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-crust text-text antialiased font-sans m-0 p-0;
+  }
+}
+
+/* Hide default browser scrollbars completely */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  display: none;
+  background: transparent;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.glass-panel {
+  @apply bg-base/60 backdrop-blur-md border border-surface0 shadow-lg rounded-xl;
+}
